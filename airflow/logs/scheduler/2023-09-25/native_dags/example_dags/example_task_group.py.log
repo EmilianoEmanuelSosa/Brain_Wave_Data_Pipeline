@@ -1,0 +1,11 @@
+[2023-09-25T10:58:07.180-0300] {processor.py:157} INFO - Started process (PID=4771) to work on /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-09-25T10:58:07.181-0300] {processor.py:826} INFO - Processing file /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2023-09-25T10:58:07.183-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:07.182-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-09-25T10:58:07.195-0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py
+[2023-09-25T10:58:07.371-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:07.371-0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_task_group
+[2023-09-25T10:58:07.403-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:07.402-0300] {manager.py:504} INFO - Created Permission View: can read on DAG:example_task_group
+[2023-09-25T10:58:07.432-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:07.431-0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_task_group
+[2023-09-25T10:58:07.446-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:07.446-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-25T10:58:07.459-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:07.459-0300] {dag.py:2763} INFO - Creating ORM DAG for example_task_group
+[2023-09-25T10:58:07.471-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:07.471-0300] {dag.py:3504} INFO - Setting next_dagrun for example_task_group to 2023-09-24T13:58:07.470988+00:00, run_after=2023-09-25T13:58:07.470988+00:00
+[2023-09-25T10:58:07.513-0300] {processor.py:179} INFO - Processing /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/example_task_group.py took 0.337 seconds

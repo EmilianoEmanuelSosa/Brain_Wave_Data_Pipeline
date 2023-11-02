@@ -1,0 +1,4 @@
+airflow/airflow_env
+.vscode
+standalone_admin_password.txt
+env/

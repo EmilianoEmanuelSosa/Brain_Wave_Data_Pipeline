@@ -1,0 +1,11 @@
+[2023-09-25T10:58:02.825-0300] {processor.py:157} INFO - Started process (PID=4768) to work on /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-09-25T10:58:02.826-0300] {processor.py:826} INFO - Processing file /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-09-25T10:58:02.827-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:02.827-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-09-25T10:58:02.870-0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-09-25T10:58:03.612-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:03.611-0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2023-09-25T10:58:03.852-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:03.852-0300] {manager.py:504} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2023-09-25T10:58:03.957-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:03.957-0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2023-09-25T10:58:04.010-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:04.010-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-25T10:58:04.062-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:04.061-0300] {dag.py:2763} INFO - Creating ORM DAG for example_skip_dag
+[2023-09-25T10:58:04.103-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:04.103-0300] {dag.py:3504} INFO - Setting next_dagrun for example_skip_dag to 2023-09-24T13:58:04.102700+00:00, run_after=2023-09-25T13:58:04.102700+00:00
+[2023-09-25T10:58:04.251-0300] {processor.py:179} INFO - Processing /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/example_skip_dag.py took 1.431 seconds

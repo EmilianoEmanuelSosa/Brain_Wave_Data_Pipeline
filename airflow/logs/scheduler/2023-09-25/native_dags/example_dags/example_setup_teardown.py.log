@@ -1,0 +1,5 @@
+[2023-09-25T10:58:21.120-0300] {processor.py:157} INFO - Started process (PID=4781) to work on /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-09-25T10:58:21.121-0300] {processor.py:826} INFO - Processing file /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-09-25T10:58:21.123-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:21.122-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-09-25T10:58:21.126-0300] {processor.py:838} WARNING - No viable dags retrieved from /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-09-25T10:58:21.141-0300] {processor.py:179} INFO - Processing /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/example_setup_teardown.py took 0.026 seconds

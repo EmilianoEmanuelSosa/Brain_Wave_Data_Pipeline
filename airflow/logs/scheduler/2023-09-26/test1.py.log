@@ -1,0 +1,7 @@
+[2023-09-26T10:57:35.022-0300] {processor.py:157} INFO - Started process (PID=2998) to work on /home/mkm/programing/Brain_Wave_Data_Pipeline/airflow/dags/test1.py
+[2023-09-26T10:57:35.035-0300] {processor.py:826} INFO - Processing file /home/mkm/programing/Brain_Wave_Data_Pipeline/airflow/dags/test1.py for tasks to queue
+[2023-09-26T10:57:35.045-0300] {logging_mixin.py:150} INFO - [2023-09-26T10:57:35.045-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/mkm/programing/Brain_Wave_Data_Pipeline/airflow/dags/test1.py
+[2023-09-26T10:57:35.941-0300] {processor.py:836} INFO - DAG(s) dict_keys(['test_1']) retrieved from /home/mkm/programing/Brain_Wave_Data_Pipeline/airflow/dags/test1.py
+[2023-09-26T10:57:35.960-0300] {logging_mixin.py:150} INFO - [2023-09-26T10:57:35.960-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-26T10:57:36.022-0300] {logging_mixin.py:150} INFO - [2023-09-26T10:57:36.021-0300] {dag.py:3504} INFO - Setting next_dagrun for test_1 to 2023-09-25T16:18:11.675460+00:00, run_after=2023-09-26T16:18:11.675460+00:00
+[2023-09-26T10:57:36.086-0300] {processor.py:179} INFO - Processing /home/mkm/programing/Brain_Wave_Data_Pipeline/airflow/dags/test1.py took 1.130 seconds

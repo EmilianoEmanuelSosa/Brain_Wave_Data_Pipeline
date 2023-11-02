@@ -1,0 +1,12 @@
+[2023-09-25T10:58:16.595-0300] {processor.py:157} INFO - Started process (PID=4778) to work on /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-09-25T10:58:16.600-0300] {processor.py:826} INFO - Processing file /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2023-09-25T10:58:16.602-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:16.601-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-09-25T10:58:16.628-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:16.628-0300] {example_python_operator.py:90} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2023-09-25T10:58:16.629-0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py
+[2023-09-25T10:58:16.853-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:16.853-0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_python_operator
+[2023-09-25T10:58:16.892-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:16.891-0300] {manager.py:504} INFO - Created Permission View: can read on DAG:example_python_operator
+[2023-09-25T10:58:16.921-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:16.921-0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_python_operator
+[2023-09-25T10:58:16.941-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:16.940-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-25T10:58:16.959-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:16.959-0300] {dag.py:2763} INFO - Creating ORM DAG for example_python_operator
+[2023-09-25T10:58:16.975-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:16.974-0300] {dag.py:3504} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2023-09-25T10:58:17.024-0300] {processor.py:179} INFO - Processing /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/example_python_operator.py took 0.433 seconds

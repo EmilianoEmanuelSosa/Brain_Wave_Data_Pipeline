@@ -1,0 +1,17 @@
+[2023-09-25T12:41:59.834-0300] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_1.print_date manual__2023-09-25T12:41:38-03:00 [queued]>
+[2023-09-25T12:41:59.843-0300] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_1.print_date manual__2023-09-25T12:41:38-03:00 [queued]>
+[2023-09-25T12:41:59.843-0300] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2023-09-25T12:41:59.873-0300] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): print_date> on 2023-09-25 15:41:38+00:00
+[2023-09-25T12:41:59.879-0300] {standard_task_runner.py:57} INFO - Started process 7540 to run task
+[2023-09-25T12:41:59.889-0300] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'test_1', 'print_date', 'manual__2023-09-25T12:41:38-03:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/test1.py', '--cfg-path', '/tmp/tmpzs3xostg']
+[2023-09-25T12:41:59.891-0300] {standard_task_runner.py:85} INFO - Job 22: Subtask print_date
+[2023-09-25T12:41:59.957-0300] {task_command.py:410} INFO - Running <TaskInstance: test_1.print_date manual__2023-09-25T12:41:38-03:00 [running]> on host mkm
+[2023-09-25T12:42:00.071-0300] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_EMAIL='emilianoemanuel2850@gmail.com' AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='test_1' AIRFLOW_CTX_TASK_ID='print_date' AIRFLOW_CTX_EXECUTION_DATE='2023-09-25T15:41:38+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-09-25T12:41:38-03:00'
+[2023-09-25T12:42:00.073-0300] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-09-25T12:42:00.073-0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo "la fecha es $(date)"']
+[2023-09-25T12:42:00.090-0300] {subprocess.py:86} INFO - Output:
+[2023-09-25T12:42:00.102-0300] {subprocess.py:93} INFO - la fecha es Mon Sep 25 12:42:00 PM -03 2023
+[2023-09-25T12:42:00.103-0300] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-09-25T12:42:00.137-0300] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=test_1, task_id=print_date, execution_date=20230925T154138, start_date=20230925T154159, end_date=20230925T154200
+[2023-09-25T12:42:00.177-0300] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-09-25T12:42:00.191-0300] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

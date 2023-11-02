@@ -1,0 +1,5 @@
+[2023-09-25T10:57:42.312-0300] {processor.py:157} INFO - Started process (PID=4664) to work on /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py
+[2023-09-25T10:57:42.313-0300] {processor.py:826} INFO - Processing file /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2023-09-25T10:57:42.314-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:57:42.314-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py
+[2023-09-25T10:57:42.317-0300] {processor.py:838} WARNING - No viable dags retrieved from /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py
+[2023-09-25T10:57:42.331-0300] {processor.py:179} INFO - Processing /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/plugins/event_listener.py took 0.023 seconds

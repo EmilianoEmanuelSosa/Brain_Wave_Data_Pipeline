@@ -1,0 +1,11 @@
+[2023-09-25T10:58:13.553-0300] {processor.py:157} INFO - Started process (PID=4776) to work on /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-09-25T10:58:13.554-0300] {processor.py:826} INFO - Processing file /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py for tasks to queue
+[2023-09-25T10:58:13.556-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:13.555-0300] {dagbag.py:541} INFO - Filling up the DagBag from /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-09-25T10:58:13.591-0300] {processor.py:836} INFO - DAG(s) dict_keys(['example_params_ui_tutorial']) retrieved from /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py
+[2023-09-25T10:58:13.779-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:13.779-0300] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_params_ui_tutorial
+[2023-09-25T10:58:13.805-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:13.805-0300] {manager.py:504} INFO - Created Permission View: can read on DAG:example_params_ui_tutorial
+[2023-09-25T10:58:13.827-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:13.827-0300] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_params_ui_tutorial
+[2023-09-25T10:58:13.842-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:13.842-0300] {dag.py:2742} INFO - Sync 1 DAGs
+[2023-09-25T10:58:13.857-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:13.857-0300] {dag.py:2763} INFO - Creating ORM DAG for example_params_ui_tutorial
+[2023-09-25T10:58:13.869-0300] {logging_mixin.py:150} INFO - [2023-09-25T10:58:13.869-0300] {dag.py:3504} INFO - Setting next_dagrun for example_params_ui_tutorial to None, run_after=None
+[2023-09-25T10:58:13.913-0300] {processor.py:179} INFO - Processing /home/mkm/programing/Brain_Wave_Data_Pipeline/env/lib/python3.11/site-packages/airflow/example_dags/example_params_ui_tutorial.py took 0.364 seconds
